@@ -1,0 +1,41 @@
+cd /root
+mkdir 0x02_vi
+ls
+cd 0x03_vi
+ls
+cat inserting
+cd ..
+cd 0x02_vi
+touch inserting
+vi inserting 
+cd ..
+cd 0x03_vi/
+cat cutting
+cd ..
+cd 0x02_vi
+touch cutting
+vi cutting
+cd ..
+cat pasting
+cd 0x03_vi/
+cat pasting
+cat undoing
+cat exiting
+cat beginning_of_the_line 
+cat end_of_the_line 
+cd ..
+cd 0x02
+cd 0x02_vi
+touch pasting
+vi pasting 
+touch undoing
+vi undoing 
+touch exiting
+vi editing
+touch beginning_of_the_line
+vi beginning_of_the_line 
+touch end_of_the_line
+vi end_of_the_line 
+vi exiting 
+vi exiting
+exit
